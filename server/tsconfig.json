@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "./build",
+    "rootDir": "./",  // The root directory is the server folder itself
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"],  // This will include all .ts files in the server folder and its subdirectories
+  "exclude": ["node_modules", "build"]
+}
